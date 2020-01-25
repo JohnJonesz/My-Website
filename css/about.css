@@ -1,0 +1,59 @@
+.about {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(255,69,0);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-about {
+    color: #FFF;
+}
+
+.about > .about-texts {
+    position: relative;
+    display: flex;
+    padding: 5px;
+    width: 40%;
+    margin-top: 20px;
+    color: #FFF;
+    justify-content: space-around;
+}
+
+.about > .about-texts > .text1 {
+    position: relative;
+    display: flex;
+    padding: 10px;
+}
+
+.about > .about-texts > .text2 {
+    position: relative;
+    display: flex;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.about > .estrelinha {
+    position: relative;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    padding: 2px;
+}
+
+.about > .estrelinha > .bar {
+    background-color:#FFF;
+    width: 50px;
+    height: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.about > .free-download {
+    color: #FFF;
+    background-color: none;
+}
